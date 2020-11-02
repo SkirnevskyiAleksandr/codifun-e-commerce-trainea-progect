@@ -1165,3 +1165,13 @@ a[class*='card'] {
   display: block; }
 
 /*# sourceMappingURL=ui.css.map */
+/*aleksandr*/
+.characteristic{
+  padding: 2px;
+  margin: 2px;
+}
+.characteristic .badge{
+  top: auto !important; 
+  left: auto !important; 
+   position: relative !important;
+}
