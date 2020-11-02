@@ -28,7 +28,9 @@ $(document).ready(function() {
 		$('[data-toggle="tooltip"]').tooltip()
 	} // end if
 
-
+$(".slider-items-owl").owlCarousel({
+  items:6,
+})
 
 
     
