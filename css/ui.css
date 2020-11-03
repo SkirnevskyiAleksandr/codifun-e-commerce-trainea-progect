@@ -1175,3 +1175,6 @@ a[class*='card'] {
   left: auto !important; 
    position: relative !important;
 }
+.input-group-text{
+  border:none;
+}
