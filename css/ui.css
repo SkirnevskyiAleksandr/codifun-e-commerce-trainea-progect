@@ -1178,3 +1178,9 @@ a[class*='card'] {
 .input-group-text{
   border:none;
 }
+.tab-pane.fade.active.show{
+  padding: 0.5rem 1rem;
+}
+#navbarDropdownMenuLink.dropdown-toggle{
+  color: #3167eb;
+}

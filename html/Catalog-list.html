@@ -73,14 +73,42 @@
               </div>
             </form> <!-- search-wrap .end// -->
           </div> <!-- col.// -->
-          <div class="col-lg-5 col-xl-4 col-sm-12">
-            <div class="widgets-wrap float-md-right">
-              <a href="#" class="widget-header mr-2">
-                <div class="icon">
-                  <i class="icon-sm rounded-circle border fa fa-shopping-cart"></i>
-                  <span class="notify">2</span>
-                </div>
-              </a>
+		  <div class="col-lg-5 col-xl-4 col-sm-12">
+			<div class="widgets-wrap float-md-right">
+					<a href="#"class="widget-header mr-2"data-toggle="dropdown" aria-expanded="false">
+					  <div class="icon">
+						<i class="icon-sm rounded-circle border fa fa-shopping-cart"></i>
+						<span class="notify">2</span>
+					  </div>
+					</a>
+					<div class="dropdown-menu p-3 dropdown-menu-right" style="min-width: 280px; position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-80px, 38px, 0px);" x-placement="bottom-end">
+					   <figure class="itemside mb-3">
+					  <div class="aside"><img src="../images/items/1.jpg" class="img-sm border"></div>
+					  <figcaption class="info align-self-center">
+						<p class="title">Name of item nice iteme</p>
+						<a href="#" class="float-right"><i class="fa fa-trash"></i></a>
+						<div class="price">$250</div> <!-- price-wrap.// -->
+					  </figcaption>
+					</figure>
+					<figure class="itemside mb-3">
+					  <div class="aside"><img src="../images/items/2.jpg" class="img-sm border"></div>
+					  <figcaption class="info align-self-center">
+						<p class="title">Some other item name is here</p>
+						<a href="#" class="float-right"><i class="fa fa-trash"></i></a>
+						<div class="price">$250</div> <!-- price-wrap.// -->
+					  </figcaption>
+					</figure>
+					<figure class="itemside mb-3">
+					  <div class="aside"><img src="../images/items/3.jpg" class="img-sm border"></div>
+					  <figcaption class="info align-self-center">
+						<p class="title">Another name of item  item</p>
+						<a href="#" class="float-right"><i class="fa fa-trash"></i></a>
+						<div class="price">$250</div> <!-- price-wrap.// -->
+					  </figcaption>
+					</figure>
+					<div class="price-wrap text-center py-3 border-top">Subtotal: <strong class="h5 price">$1200</strong></div>
+					<a href="" class="btn btn-primary btn-block"> Checkout </a>
+					</div>
               <a href="#" class="widget-header mr-2">
                 <div class="icon">
                   <i class="icon-sm rounded-circle border fa fa-heart"></i>
@@ -132,25 +160,25 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Catalog</a>
+                <a class="nav-link" href="../html/Catalog.html">Catalog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+				  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Demo pages
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				  <a class="dropdown-item" href="./Catalog.html">Catalog</a>
+				  <a class="dropdown-item" href="./Catalog-list.html">Catalog-list</a>
+				  <a class="dropdown-item" href="./Product-detail.html">Product-ditails</a>
+				</div>
+			  </li>
             </ul>
           </div>
         </nav>
@@ -164,9 +192,8 @@
             border-radius: 0.37rem;">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                      <li class="breadcrumb-item"><a href="#">Home</a></li>
-                      <li class="breadcrumb-item"><a href="#">Library</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">Data</li>
+                      <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Catalog-list</li>
                     </ol>
                   </nav>              
             </div>
