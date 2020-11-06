@@ -1184,3 +1184,6 @@ a[class*='card'] {
 #navbarDropdownMenuLink.dropdown-toggle{
   color: #3167eb;
 }
+.carousel-indicators{
+  bottom: 10px;
+}
