@@ -1,3 +1,3 @@
 # codifun-e-commerce-trainea-progect
 
-## online store on e-commerce technology
+## online store(Like Ali-ba-ba) on e-commerce technology
